@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02)"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)"/>
+			<item value="C:\java_prof\source\JavaWorkshop08_jdbc2"/>
+			<item value="C:\java_prof\source\JDBC_VER_1"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\jdbc1"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\jdbc0"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\11Day7"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\11Day6"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\11Day5"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\11Day4"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\11Day3"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\11Day2"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\11Day"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\JavaWorkshop07"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (1)\JavaWorkshop06"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (2)\10Day1"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (2)\10Day0"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (2)\09Day7_2"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (2)\09Day7"/>
+			<item value="C:\java_prof\source\웹서비스기바 빅데이터분석(2022_02) (2)\09Day6"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

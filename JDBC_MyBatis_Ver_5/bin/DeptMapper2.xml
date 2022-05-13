@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dept.DeptMapper2">
+<!-- HashMap으로 결과 얻기 -->
+	<select id="selectByDeptHashmap" resultType="hashmap" parameterType="int">
+	
+		select deptno, dname, loc 
+		from dept
+		where deptno= #{deptno}		
+		<!-- map에 컬럼 이름을 키값, 데이터를 value로 저장함  -->
+	</select>
+	
+	
+	<select id="deptRecordCount" resultType="int">
+		select count(*) from dept
+	</select>
+	<select id="selectAll" resultType="Dept"><!--  alias사용  -->
+		select deptno, dname, loc
+		from dept
+		order by 1
+	</select>
+</mapper>

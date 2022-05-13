@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Iterator;
+
+public class ListTest2 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> list = new ArrayList<>();
+		list.add("홍길동");
+		list.add("이순신");
+		list.add("유관순");
+		list.add("강감찬");
+		list.add("세종");
+		//list.add(100);
+
+		//데이터 출력
+		System.out.println(list);
+		
+		System.out.println(list.get(0));
+		System.out.println(list.get(1));
+		System.out.println(list.get(2));
+
+		for (String s : list) {
+			System.out.println(s);
+		}
+		
+		Iterator<String> ite = list.iterator();
+		while(ite.hasNext()) {
+			String k =ite.next();
+			System.out.println(">>"+k);
+		}
+		
+	}//end main
+
+}

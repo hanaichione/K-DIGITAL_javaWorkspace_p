@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dept.DeptMapper5">
+<!-- multiSelectMap -->
+<select id="multiSelectMap" parameterType="hashmap" resultType="Dept">
+		select deptno, dname, loc 
+		from dept 
+		where deptno In <!--  주의 -->
+		(#{key1}, #{key2})	
+	</select>
+
+	
+
+</mapper>
